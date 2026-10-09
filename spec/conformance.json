@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "protocol": ["independent-go-rust-reference-recovery", "randomized-output", "tamper-failure", "wrong-policy-failure", "uint64-policy-boundary", "complete-exponent", "inclusive-size-limits"],
+  "normalization": ["pem-whitespace", "pem-pkcs1-pkcs8", "protected-pkcs8", "modern-p12", "exactly-one-p12-key", "key-pair-match", "leaf-first-chain", "chain-signatures", "validity", "rsa-2048-8192", "ec-p256-p384"],
+  "lifecycle": ["initial", "empty-plan", "restart", "metadata-edit", "renewal", "context-rotation", "inline-reorder", "saved-plan-change", "write-only-version", "import", "drift", "deletion", "conflict", "uncertain-write", "missing-provenance", "algorithm-cutover"],
+  "qualification": ["secret-absence", "independent-install", "two-way-ciphertext-handoff", "all-inline-nodes", "linux-macos", "live-status-valid", "strict-trust-hostname", "served-fingerprint", "https-success", "renewal-propagation", "cleanup"]
+}
