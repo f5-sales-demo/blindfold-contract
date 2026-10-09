@@ -1,0 +1,9 @@
+# Generated, public synthetic key fixtures only. These are not live credentials.
+fixtures/synthetic-inputs.json:private-key:3
+fixtures/synthetic-inputs.json:private-key:4
+fixtures/synthetic-inputs.json:private-key:8
+fixtures/synthetic-inputs.json:private-key:9
+/github/workspace/fixtures/synthetic-inputs.json:private-key:3
+/github/workspace/fixtures/synthetic-inputs.json:private-key:4
+/github/workspace/fixtures/synthetic-inputs.json:private-key:8
+/github/workspace/fixtures/synthetic-inputs.json:private-key:9
