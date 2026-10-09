@@ -13,5 +13,5 @@ files = {
 payload = (json.dumps({"version": 1, "files": files}, sort_keys=True, separators=(",", ":")) + "\n").encode()
 output = root / "dist"
 output.mkdir(exist_ok=True)
-(output / "blindfold-contract-v1.json").write_bytes(payload)
-(output / "SHA256SUMS").write_text(hashlib.sha256(payload).hexdigest() + "  blindfold-contract-v1.json\n")
+(output / "blindfold-contract-v1.txt").write_bytes(payload)
+(output / "SHA256SUMS").write_text(hashlib.sha256(payload).hexdigest() + "  blindfold-contract-v1.txt\n")
